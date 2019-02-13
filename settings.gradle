@@ -1,1 +1,2 @@
 include ':sample', ':android-reactive-location'
+rootProject.name = ':android-reactive-location'

@@ -8,6 +8,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 
@@ -23,8 +24,8 @@ def isReleaseBuild() {
 }
 
 allprojects {
-    version = VERSION_NAME
-    group = GROUP
+    group = 'eu.bam-boo.rankmap'
+    version = '2.1.0'
 
     repositories {
         mavenCentral()
